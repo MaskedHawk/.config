@@ -1,0 +1,9 @@
+pane	0	1	:Vagrant	1	:*	0	:/home/alexis/Documents/Projects/tell-my-city	0	ssh	:ssh vagrant@172.17.0.3 -p 22 -o Compression=yes -o DSAAuthentication=yes -o LogLevel=FATAL -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o IdentitiesOnly=yes -i /home/alexis/.vagrant.d/insecure_private_key
+pane	0	1	:Vagrant	1	:*	1	:/home/alexis/Documents/Projects/tell-my-city	0	psql	:/usr/lib/postgresql/9.5/bin/psql -h 172.17.0.2 -U vagrant
+pane	0	1	:Vagrant	1	:*	2	:/home/alexis/Documents/Projects/tell-my-city	1	zsh	:
+pane	0	2	:tmc	0	:-	0	:/home/alexis/Documents/Projects/tell-my-city	1	zsh	:
+pane	1	1	:zsh	1	:*	0	:/home/alexis	1	zsh	:
+window	0	1	1	:*	51c3,212x59,0,0[212x29,0,0,0,212x29,0,30{106x29,0,30,1,105x29,107,30,8}]
+window	0	2	0	:-	691f,212x59,0,0,10
+window	1	1	1	:*	5764,80x23,0,0,15
+state	1	
