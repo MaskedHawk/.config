@@ -3,7 +3,6 @@
 #precmd() {
 #    $PROMPT_COMMAND = ${PWD}
 #}
-
 if [ "$TMUX" = "" ]; then tmux; fi
 export CLICOLOR=xterm-color
 
